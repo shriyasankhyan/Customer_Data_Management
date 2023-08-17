@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+  background-color: black;
+  color: white;
+  height: 100vh;
+}
+
+.customers-page{
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
