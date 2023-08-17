@@ -1,7 +1,7 @@
 import axios from 'axios'
 import { ADD_NEW_CUSTOMER, GET_ALL_CUSTOMERS, GET_ONE_CUSTOMER, UPDATE_CUSTOMER_NAME, UPDATE_CUSTOMER_EMAIL, UPDATE_CUSTOMER_PHONE, DELETE_CUSTOMER } from './type';
 
-const API_URL = 'http://localhost:8000';
+const API_URL = 'https://customer-data-management-kjyt.onrender.com/';
 
 export const addNewCustomer= (name, email, phone) => async(dispatch)=> {
     try{
