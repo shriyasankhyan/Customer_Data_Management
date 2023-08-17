@@ -22,4 +22,8 @@ npm install
 npm run dev
 ```
 
+#### For the Database
+
+Change the password and username as that is being imported from .env file which is ignored by .gitignore
+
 
